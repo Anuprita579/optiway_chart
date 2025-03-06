@@ -180,7 +180,7 @@ const DriverChart = () => {
             </div>
           </div>
 
-          <div className="bg-white p-4 rounded-lg shadow mb-8">
+          {/* <div className="bg-white p-4 rounded-lg shadow mb-8">
             <h3 className="text-lg font-semibold mb-4">Driver Distribution</h3>
             <div style={{ height: "300px" }}>
               <Bar
@@ -207,7 +207,7 @@ const DriverChart = () => {
                 }}
               />
             </div>
-          </div>
+          </div> */}
 
           <div className="bg-white p-4 rounded-lg shadow">
             <h3 className="text-lg font-semibold mb-4">Drivers List</h3>
