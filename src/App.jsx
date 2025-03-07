@@ -10,7 +10,8 @@ function App() {
   return (
     <Router>
     <Routes>
-    <Route path='/:companyId' element={<Home />} />
+    <Route path='/' element={<Home />} />
+    {/* <Route path='/:companyId' element={<Home />} /> */}
     <Route path='/driver' element={<DriverChart />} />
     <Route path='/vehicle' element={<VehicleChart />} />
     <Route path='/companyVehicle/:companyId' element={<CompanyVehicle />} />
